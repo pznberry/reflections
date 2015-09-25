@@ -1,0 +1,28 @@
+git init = make a new empty Git repository in current directory (.git)
+git status = show info
+staging area = add files to this to prepare for commit, can choose what files to commit
+git add = adds files to the staging area
+git checkout master = returns to most recent commit
+git branch = shows current branches
+git branch ARGUMENT = create a new branch with that name
+
+git restet --hard = discards changes in working directory or staging area, if changes have not been committed they are gone
+
+git diff with NO arguments will show changes you haven't added to staging area yet!
+
+git diff --staged = show difference between staging area and repository
+
+
+
+
+What happens when you initialize a repository?
+A hidden file is created that will store all your commit information. You need to do this in order to be able to access past commits.
+
+How is the staging area different from the working directory and repository? What value do you think it offers?
+The staging area is where you can put which files you want to add to the repository from the working directory. It gives more control, so you're not committing every file every time if you didn't make changes to them.
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can view the git diff to double check what you have added/removed. If it isn't quite at a logical change, you can continue to edit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+If you are making different versions of a code, you can switch between the codes easily. Also if you are experimenting, you can return to the original quickly by going to the master instead of trying to find the commit ID.
