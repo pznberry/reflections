@@ -7,6 +7,11 @@ git branch = shows current branches
 git branch ARGUMENT = create a new branch with that name
 git log --graph
 
+git merge master BRANCH = merch BRANCH into master
+git show = show changes of a commit compared to its parent
+
+git branch - d BRANCH = delete branch
+
 git checkout --b new_branch
 
 git restet --hard = discards changes in working directory or staging area, if changes have not been committed they are gone
@@ -32,3 +37,6 @@ If you are making different versions of a code, you can switch between the codes
 
 How do the diagrams help you visualize the branch structure?
 They allow me to see the parents of the commits and where in the system everything is going (on branches)
+
+What is the result of merging two branches together? Why do we represent it in the diagram in the way we do?
+Merging branches will merge all the files and changes. Any code added in will be added, any code that has been deleted since they split will be deleted (compares to the last commit that was exactly the same). We represent it in the diagram like so because it includes all the parents and we can trace the commits back.
