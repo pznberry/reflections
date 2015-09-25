@@ -5,6 +5,9 @@ git add = adds files to the staging area
 git checkout master = returns to most recent commit
 git branch = shows current branches
 git branch ARGUMENT = create a new branch with that name
+git log --graph
+
+git checkout --b new_branch
 
 git restet --hard = discards changes in working directory or staging area, if changes have not been committed they are gone
 
@@ -26,3 +29,6 @@ You can view the git diff to double check what you have added/removed. If it isn
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 If you are making different versions of a code, you can switch between the codes easily. Also if you are experimenting, you can return to the original quickly by going to the master instead of trying to find the commit ID.
+
+How do the diagrams help you visualize the branch structure?
+They allow me to see the parents of the commits and where in the system everything is going (on branches)
