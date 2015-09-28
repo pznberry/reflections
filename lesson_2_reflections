@@ -40,3 +40,6 @@ They allow me to see the parents of the commits and where in the system everythi
 
 What is the result of merging two branches together? Why do we represent it in the diagram in the way we do?
 Merging branches will merge all the files and changes. Any code added in will be added, any code that has been deleted since they split will be deleted (compares to the last commit that was exactly the same). We represent it in the diagram like so because it includes all the parents and we can trace the commits back.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+Git makes merging much faster, but can cause conflicts if two people are editing the same part. If you do it manually, you can work with that person to edit the code together. Git merging is ideal for when you are working on a different part of the code.
