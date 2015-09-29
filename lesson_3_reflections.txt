@@ -1,2 +1,10 @@
+git remote add [shortname] [url] = creates new Git repository
+git remote -v = view strings
+git push origin master = push your master branch to git
+git pull origin master = pull your master branch from git
+
 When would you want to use a remote repository rather than keeping all your work local?
 When working with a group of people on one code. You can all have access to the code to suggest changes, or work on your own individual parts.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+To avoid Git pulling when you're working on something and haven't committed/pushed it yet.
