@@ -8,3 +8,8 @@ When working with a group of people on one code. You can all have access to the 
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 To avoid Git pulling when you're working on something and haven't committed/pushed it yet.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of the other?
+Forks - for working on someone else's code from GitHub, so you can make all the changes you want and their's will remain the same.
+Clones - for taking code from GitHub to be able to edit on your own computer.
+Branches - for implementing experimental features and still being able to return to the master if you run into problems.
