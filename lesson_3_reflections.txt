@@ -20,3 +20,6 @@ You can review changes you've made to it and also go back if you introduce a bug
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 You would have to share files either on the same computer, or via drop box. It would be harder to update things in the moment and you would not be able to view commits.
+
+When would you want to make changes in a separate branch rather tahn directly in master? What benefits does each approach have?
+Master is bascially the main code, so by making changes here you are truely updating your code. When making changes in a branch, you can test out different options and make sure things run smoothly before merging it and adding it to the master. It is also useful if you're working with a group, so you can compare changes and make sure a change you make doesn't impact someone else's change.
