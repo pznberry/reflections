@@ -2,6 +2,7 @@ git remote add [shortname] [url] = creates new Git repository
 git remote -v = view strings
 git push origin master = push your master branch to git
 git pull origin master = pull your master branch from git
+git fetch = updates local copy of remote branch (origin/master), leaves local master alone (master) (good to compare changes or if there are conflicts)
 
 When would you want to use a remote repository rather than keeping all your work local?
 When working with a group of people on one code. You can all have access to the code to suggest changes, or work on your own individual parts.
@@ -13,3 +14,6 @@ Describe the differences between forks, clones, and branches. When would you use
 Forks - for working on someone else's code from GitHub, so you can make all the changes you want and their's will remain the same.
 Clones - for taking code from GitHub to be able to edit on your own computer.
 Branches - for implementing experimental features and still being able to return to the master if you run into problems.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+You can review changes you've made to it and also go back if you introduce a bug.
