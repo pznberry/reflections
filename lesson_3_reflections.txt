@@ -17,3 +17,6 @@ Branches - for implementing experimental features and still being able to return
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 You can review changes you've made to it and also go back if you introduce a bug.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+You would have to share files either on the same computer, or via drop box. It would be harder to update things in the moment and you would not be able to view commits.
